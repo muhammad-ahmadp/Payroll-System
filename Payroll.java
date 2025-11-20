@@ -4,7 +4,7 @@ public class Payroll {
 
     public Payroll(Employee employee) {
         if (employee == null) {
-            throw new IllegalArgumentException("❌ Employee cannot be null!");
+            throw new IllegalArgumentException("Employee cannot be null!");
         }
         this.employee = employee;
     }
