@@ -19,7 +19,7 @@ public class Manager {
                 choice = sc.nextInt();
                 sc.nextLine();
             } else {
-                System.out.println("❌ Invalid choice! Enter a number from 1 to 4.");
+                System.out.println("Invalid choice! Enter a number from 1 to 4.");
                 sc.nextLine();
                 continue;
             }
@@ -43,7 +43,7 @@ public class Manager {
                         Employee employee = new Employee(employeeId, name, basicSalary, allowances, deduction);
                         companyManager.addEmployee(employee);
                     } catch (Exception e) {
-                        System.out.println("❌ Invalid input! Enter numbers only.");
+                        System.out.println("Invalid input! Enter numbers only.");
                         sc.nextLine();
                     }
                     System.out.println("----------------------------------");
@@ -60,7 +60,7 @@ public class Manager {
                     exit = true;
                     System.out.println("Exiting the system...");
                 }
-                default -> System.out.println("❌ Invalid choice! Enter 1-4.");
+                default -> System.out.println("Invalid choice! Enter 1-4.");
             }
         }
     }
