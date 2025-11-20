@@ -5,12 +5,12 @@ public class CompanyManager {
     public void addEmployee (Employee employee){
         for (Employee e : employees) {
             if (e.getEmployeeId().equals(employee.getEmployeeId())) {
-                System.out.println("❌ Employee ID already exists!");
+                System.out.println("Employee ID already exists!");
                 return;
             }
         }
         employees.add(employee);
-        System.out.println("✅ Employee Added Successfully!");
+        System.out.println("Employee Added Successfully!");
     }
 
     public void displayAllEmployees(){
@@ -30,7 +30,7 @@ public class CompanyManager {
                 return;
             }
         }
-        System.out.println("❌ Employee ID not found!");
+        System.out.println("Employee ID not found!");
     }
 
 
