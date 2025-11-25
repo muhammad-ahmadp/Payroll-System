@@ -139,10 +139,8 @@ Net Salary: 55000.00
 
 **[Muhammad Ahmad]**
 
-*   GitHub: [https://github.com/muhammad-ahmadp]
-*   LinkedIn: [https://linkedin.com/in/muhammad-ahmadcs]
-*   Email: [muhammadahmadseng@gmail.com]
-
+*   GitHub: [@muhammad-ahmadp](https://github.com/muhammad-ahmadp)
+*   LinkedIn: [muhammad-ahmadcs](https://linkedin.com/in/muhammad-ahmadcs)
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
